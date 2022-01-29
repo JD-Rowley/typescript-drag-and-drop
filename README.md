@@ -19,3 +19,6 @@
   * E-mail: jdrowley1989@gmail.com
 
   ### GitHub Repo: https://github.com/JD-Rowley/typescript-drag-and-drop
+
+  Click the image to be taken to the URL of the deployed app.
+[![Sample Page Layout](/assets/img/drag-and-drop.JPG)](https://jd-rowley.github.io/typescript-drag-and-drop/)
