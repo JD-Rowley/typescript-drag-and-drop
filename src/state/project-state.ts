@@ -1,4 +1,5 @@
 import { Project, ProjectStatus } from "../models/project";
+import { v4 as uuidv4 } from "uuid";
 
 type Listener<T> = (items: T[]) => void;
 
@@ -28,7 +29,7 @@ export class ProjectState extends State<Project> {
 
     addProject(title: string, description: string, numOfPeople: number) {
         const newProject = new Project(
-            Math.random().toString(),
+            uuidv4(),
             title,
             description,
             numOfPeople,
